@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    width: 900px;
+    height: 500px;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    background-color: dimgray;
+    gap: 20px 5px;
+}
+
+main > article {
+    background-color: lightgray;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
